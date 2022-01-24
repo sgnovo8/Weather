@@ -8,6 +8,7 @@ contract Weather {
     uint temperature = 30;
     uint humidity;
     string season = "summer";
+    uint dewpoint;
 
 //potential behavior changes
     function windSpdKph (uint256 _kph) public  {
