@@ -6,9 +6,10 @@ contract Weather {
     uint windSpeed;
     uint precipPercent = 50;
     uint temperature = 30;
-    uint humidity;
+    uint relativeHumidity;
     string season = "summer";
     uint dewpoint;
+    uint barometricPressure;
 
 //potential behavior changes
     function windSpdKph (uint256 _kph) public  {
